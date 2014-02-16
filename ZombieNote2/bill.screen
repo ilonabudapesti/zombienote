@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="5" x="238" y="144" width="360" height="577" measuredWidth="360" measuredHeight="577" background="#eeeeee" foreground="#eeeeee"/>
+  <widgets xsi:type="model:Panel" id="3" x="238" y="144" width="359" height="49" measuredWidth="359" measuredHeight="49" background="#1aeb14" foreground="#1aeb14"/>
+  <widgets xsi:type="model:Master" id="1" x="200" y="10" measuredWidth="430" measuredHeight="844">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android4/Android4.screen#Phone"/>
+  </widgets>
+  <widgets xsi:type="model:CoverFlow" id="4" x="248" y="608" width="340" height="97" measuredWidth="340" measuredHeight="97"/>
+  <widgets xsi:type="model:Image" id="6" x="355" y="367" width="116" height="121" measuredWidth="116" measuredHeight="121" src="assets/billgates.JPG"/>
+  <widgets xsi:type="model:Image" id="7" x="368" y="219" width="73" height="67" measuredWidth="73" measuredHeight="67" src="assets/monthypython.jpg"/>
+  <widgets xsi:type="model:Arrow" id="8" x="408" y="285" width="8" height="68" text="(82)" measuredWidth="8" measuredHeight="68" annotation="true" right="true" direction="bottom"/>
+  <widgets xsi:type="model:Image" id="9" x="488" y="504" measuredWidth="73" measuredHeight="73" link="jeff.screen" src="assets/jeffbezos.png"/>
+  <widgets xsi:type="model:Arrow" id="10" x="480" y="416" width="49" height="71" text="(5)" measuredWidth="49" measuredHeight="71" annotation="true" right="true"/>
+  <widgets xsi:type="model:Label" id="12" x="467" y="151" text="Recipes" measuredWidth="110" measuredHeight="36" textAlignment="Center" foreground="#ffffff" icon="backspace (large)">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="13" x="248" y="148" width="83" height="41" text="BACK" measuredWidth="83" measuredHeight="41" icon="arrow-left (small)" link="main.screen" style="pointleft">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
